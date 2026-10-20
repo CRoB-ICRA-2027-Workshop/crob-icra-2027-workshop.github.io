@@ -1,0 +1,23 @@
+title: "CRoB @ ICRA 2027"
+long_title: "Choosing Robot Bodies (CRoB): Specialists and Generalists in Robot Co-Design"
+description: >-
+  A full-day ICRA 2027 workshop on when a problem is better solved by changing
+  the robot's body than by adapting a generalist policy.
+url: "https://crob-icra-2027-workshop.github.io"
+baseurl: ""
+
+# Workshop logistics. Replace "TBA" values as they are confirmed.
+contact_email: "TBA"
+workshop_date: "TBA"
+workshop_room: "TBA"
+icra_url: "https://2027.ieee-icra.org/"
+submission_url: ""   # e.g., OpenReview or CMT link; leave empty to show "opens soon"
+
+markdown: kramdown
+exclude:
+  - docs/
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
