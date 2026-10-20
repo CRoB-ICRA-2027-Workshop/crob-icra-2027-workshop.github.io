@@ -1,0 +1,41 @@
+# Workshop program. "kind" sets the row style: talk, interactive, poster, break, admin.
+- time: "08:30"
+  title: "Opening and challenge framing"
+  kind: admin
+- time: "08:45"
+  title: "Invited talks I: the generalist case"
+  note: "Three 25-minute talks, each ending with one open question for the room"
+  kind: talk
+- time: "10:00"
+  title: "Poster pitches"
+  note: "Up to ten 2-minute pitches from accepted abstracts"
+  kind: poster
+- time: "10:20"
+  title: "Coffee and poster session I"
+  kind: poster
+- time: "11:15"
+  title: "Invited talks II: the specialist case"
+  note: "Three 25-minute talks, each ending with one open question for the room"
+  kind: talk
+- time: "12:30"
+  title: "Lunch break"
+  kind: break
+- time: "14:00"
+  title: "Hot-takes debate"
+  note: "Two statements, 35 minutes each: audience vote, two position statements, moderated Q&A, second vote"
+  kind: interactive
+- time: "15:10"
+  title: "Table-based working groups"
+  kind: interactive
+- time: "16:20"
+  title: "Coffee and poster session II"
+  kind: poster
+- time: "16:50"
+  title: "Group report-back"
+  kind: interactive
+- time: "17:15"
+  title: "Specialist-vs-generalist fishbowl"
+  kind: interactive
+- time: "17:45"
+  title: "Next steps, artifact leads, and closing"
+  kind: admin
