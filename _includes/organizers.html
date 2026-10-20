@@ -1,0 +1,8 @@
+<section id="organizers" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Organizers</h2>
+    <div class="row g-4 justify-content-center">
+      {%- for p in site.data.organizers -%}{% include person.html p=p subtitle=p.position %}{%- endfor -%}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,41 @@
+<section id="about" class="section">
+  <div class="container narrow">
+    <h2 class="section-title">About</h2>
+    <p>
+      In robotics, there is currently no clear winner for a universal robot embodiment; a robot designed
+      for locomotion is not optimized for fine-grained manipulation, and vice versa. Open X-Embodiment
+      aggregates data from 22 embodiments, enabling generalist policies such as Octo and OpenVLA.
+      However, assuming a fixed distribution of embodiments constrains what the policy can learn, because
+      morphology governs whether control is learnable at all, beyond its effect on final task performance.
+      Co-design addresses this limitation by optimizing the physical hardware and the control system
+      jointly from task information.
+    </p>
+    <p class="thesis">
+      This workshop asks: what problems are better addressed with changes to physical embodiments rather
+      than generalist control systems?
+    </p>
+    <p>
+      Cross-embodiment pretraining has become a default starting point, which turns every hardware decision
+      into a question of transfer, and generative design tools now propose candidate bodies faster than any
+      group can physically validate them. However, no protocol exists for checking a design ranking before
+      fabrication. We organize the day around three questions:
+    </p>
+    <ol class="key-questions">
+      <li>When is a specialist body worth building, and what evidence justifies that choice over adapting a
+        generalist policy to an existing platform?</li>
+      <li>Can co-design methods that search for a task-optimal body work with policies pretrained across many
+        embodiments, or do the two pull apart?</li>
+      <li>What evidence should precede fabrication, and when does a learned ranking of candidate embodiments
+        survive controller retraining, sim-to-real transfer, and a hardware test?</li>
+    </ol>
+    <p>
+      Prior co-design workshops focused on the choice of design algorithm. In contrast, CRoB focuses on the
+      decision that comes first: whether to design a new body at all, or to use a platform and policy that
+      already exist. Together with participants, we will
+      draft community guidelines for that decision, including a validation checklist for learned design
+      evaluators, benchmark desiderata, and reporting requirements for body-selection claims. These
+      standards should carry over to any field where candidate designs are proposed faster than they can
+      be tested, such as materials discovery or hardware accelerators.
+    </p>
+  </div>
+</section>

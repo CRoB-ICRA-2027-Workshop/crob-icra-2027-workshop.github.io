@@ -1,0 +1,45 @@
+<section id="call" class="section section-alt">
+  <div class="container narrow">
+    <h2 class="section-title">Call for Papers</h2>
+    <p>
+      We invite 2&ndash;4 page extended abstracts on new, preliminary, and in-progress work in robot co-design.
+      Each submission should be framed as addressing one of the three workshop questions in the
+      <a href="#about">About</a> section. Position pieces, benchmark proposals, and negative results are
+      explicitly in scope, as are submissions from industrial labs and hardware-focused teams. Topics include,
+      but are not limited to:
+    </p>
+    <ul>
+      <li>Evidence for choosing a specialist body over adapting a generalist policy, or the reverse</li>
+      <li>Co-design with policies pretrained across many embodiments</li>
+      <li>Morphology optimization and generative design of robot bodies</li>
+      <li>Validating learned design evaluators under controller retraining and sim-to-real transfer</li>
+      <li>Fabrication and hardware tests of optimized designs</li>
+      <li>Benchmarks and reporting standards for body-selection claims</li>
+    </ul>
+    <p>
+      A program committee drawn from robot learning, co-design, and hardware design gives each abstract at
+      least two single-blind reviews, and reviewers with a conflict of interest recuse themselves. We will
+      accept up to 20 posters, and up to ten selected abstracts will give two-minute pitches. A portion of
+      pitch slots is reserved for student-led and early-career work. Accepted abstracts will be hosted on
+      this website.
+    </p>
+
+    <h3 class="h5 mt-4">Important dates</h3>
+    <table class="table dates-table">
+      <tbody>
+        {%- for d in site.data.dates -%}
+        <tr><th scope="row">{{ d.label }}</th><td>{{ d.date }}</td></tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+    <p class="small text-secondary-emphasis">All deadlines are Anywhere on Earth (AoE).</p>
+
+    <div class="text-center mt-4">
+      {%- if site.submission_url != "" -%}
+      <a class="btn btn-accent" href="{{ site.submission_url }}">Submit an abstract</a>
+      {%- else -%}
+      <span class="btn btn-outline-accent disabled" aria-disabled="true">Submission portal opens soon</span>
+      {%- endif -%}
+    </div>
+  </div>
+</section>

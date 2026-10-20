@@ -1,0 +1,21 @@
+{%- comment -%} Person card. Usage: {% include person.html p=item subtitle="..." %} {%- endcomment -%}
+{%- assign p = include.p -%}
+{%- assign tba = false -%}
+{%- if p.name == "TBA" -%}{%- assign tba = true -%}{%- endif -%}
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="person text-center{% if tba %} person-tba{% endif %}">
+    {%- if p.photo and p.photo != "" -%}
+      <img class="avatar" src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    {%- else -%}
+      <img class="avatar" src="{{ '/assets/img/people/placeholder.svg' | relative_url }}" alt="" loading="lazy">
+    {%- endif -%}
+    <div class="person-name">
+      {%- if tba -%}To be announced
+      {%- elsif p.url and p.url != "" -%}<a href="{{ p.url }}">{{ p.name }}</a>
+      {%- else -%}{{ p.name }}{%- endif -%}
+    </div>
+    {%- if include.subtitle and include.subtitle != "" -%}<div class="person-meta">{{ include.subtitle }}</div>{%- endif -%}
+    {%- if p.affiliation and p.affiliation != "" -%}<div class="person-meta">{{ p.affiliation }}</div>{%- endif -%}
+    {%- if p.topics and p.topics != "" -%}<div class="person-topics">{{ p.topics }}</div>{%- endif -%}
+  </div>
+</div>

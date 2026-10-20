@@ -1,0 +1,20 @@
+<section id="schedule" class="section section-alt">
+  <div class="container narrow">
+    <h2 class="section-title">Schedule</h2>
+    <p class="text-secondary-emphasis">
+      Tentative program. The morning stages the generalist case against the specialist case, and the
+      afternoon moves into the debate, working groups, and a closing fishbowl. Times are local.
+    </p>
+    <ol class="schedule">
+      {%- for s in site.data.schedule -%}
+      <li class="schedule-row kind-{{ s.kind }}">
+        <span class="schedule-time">{{ s.time }}</span>
+        <span class="schedule-body">
+          <span class="schedule-title">{{ s.title }}</span>
+          {%- if s.note -%}<span class="schedule-note">{{ s.note }}</span>{%- endif -%}
+        </span>
+      </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>
