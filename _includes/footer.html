@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="container text-center">
+    <p class="mb-1">
+      Contact:
+      {%- if site.contact_email contains "@" -%}
+        <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+      {%- else -%} {{ site.contact_email }}{%- endif -%}
+    </p>
+    <p class="mb-0 small">
+      A workshop at <a href="{{ site.icra_url }}">ICRA 2027</a>, the IEEE International Conference on Robotics and Automation.
+    </p>
+  </div>
+</footer>
