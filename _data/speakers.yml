@@ -1,36 +1,14 @@
 # Invited speakers. "block" is generalist or specialist.
 # Set name to "TBA" for open slots. Photos go in assets/img/people/ (square, ~400px).
 - block: generalist
-  name: "Boyuan Chen"
-  affiliation: "Duke University"
-  topics: "Text2Robot, cross-embodiment learning"
-  url: ""
-  photo: ""
-- block: generalist
-  name: "Shuran Song"
-  affiliation: "Stanford University"
-  topics: "Fit2Form, generative design"
-  url: ""
-  photo: ""
+  name: "TBA"
 - block: generalist
   name: "TBA"
-  affiliation: ""
-  url: ""
-  photo: ""
-- block: specialist
-  name: "Rika Antonova"
-  affiliation: "University of Cambridge"
-  topics: "Real-to-sim, co-evolving hardware and policy"
-  url: ""
-  photo: ""
-- block: specialist
-  name: "Matei Ciocarlie"
-  affiliation: "Columbia University"
-  topics: "Hand design, hardware as policy"
-  url: ""
-  photo: ""
+- block: generalist
+  name: "TBA"
 - block: specialist
   name: "TBA"
-  affiliation: ""
-  url: ""
-  photo: ""
+- block: specialist
+  name: "TBA"
+- block: specialist
+  name: "TBA"
