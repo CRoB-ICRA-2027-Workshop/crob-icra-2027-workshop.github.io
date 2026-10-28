@@ -16,6 +16,9 @@
     </div>
     {%- if include.subtitle and include.subtitle != "" -%}<div class="person-meta">{{ include.subtitle }}</div>{%- endif -%}
     {%- if p.affiliation and p.affiliation != "" -%}<div class="person-meta">{{ p.affiliation }}</div>{%- endif -%}
+    {%- if p.status and p.status != "" -%}
+      <div class="person-status">{{ p.status }}{% if p.attendance and p.attendance != "" %} &middot; {% if p.attendance == "TBA" %}Attendance TBA{% else %}{{ p.attendance }}{% endif %}{% endif %}</div>
+    {%- endif -%}
     {%- if p.topics and p.topics != "" -%}<div class="person-topics">{{ p.topics }}</div>{%- endif -%}
   </div>
 </div>

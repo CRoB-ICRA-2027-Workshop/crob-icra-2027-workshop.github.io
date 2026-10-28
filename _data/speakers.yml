@@ -1,14 +1,41 @@
 # Invited speakers. "block" is generalist or specialist.
-# Set name to "TBA" for open slots. Photos go in assets/img/people/ (square, ~400px).
+# Set name to "TBA" for open slots. Photos go in assets/img/people/<lastname>.jpg (square, ~400px);
+# leave photo empty until the file is added. "status" is Confirmed or Invited.
+# "attendance" is In person, Remote, or TBA (only set In person / Remote once the speaker has said so).
 - block: generalist
-  name: "TBA"
+  name: "Boyuan Chen"
+  affiliation: "Duke University"
+  url: ""
+  photo: ""  # chen.jpg
+  status: "Confirmed"
+  attendance: "TBA"
 - block: generalist
-  name: "TBA"
+  name: "Oier Mees"
+  affiliation: "ETH Zurich"
+  url: ""
+  photo: ""  # mees.jpg
+  status: "Confirmed"
+  attendance: "TBA"
 - block: generalist
   name: "TBA"
 - block: specialist
-  name: "TBA"
+  name: "Rika Antonova"
+  affiliation: "University of Cambridge"
+  url: ""
+  photo: ""  # antonova.jpg
+  status: "Confirmed"
+  attendance: "In person"
 - block: specialist
-  name: "TBA"
+  name: "Matei Ciocarlie"
+  affiliation: "Columbia University"
+  url: ""
+  photo: ""  # ciocarlie.jpg
+  status: "Confirmed"
+  attendance: "TBA"
 - block: specialist
-  name: "TBA"
+  name: "Cosimo Della Santina"
+  affiliation: "TU Delft"
+  url: ""
+  photo: ""  # dellasantina.jpg
+  status: "Confirmed"
+  attendance: "In person"

@@ -111,6 +111,7 @@ a:hover { color: var(--crob-accent-hover); }
 .person-name a:hover { text-decoration: underline; }
 .person-meta { font-size: 0.9rem; color: var(--crob-muted); }
 .person-topics { font-size: 0.82rem; color: var(--crob-accent); margin-top: 0.25rem; }
+.person-status { font-size: 0.8rem; color: var(--crob-accent); margin-top: 0.25rem; font-weight: 500; }
 .person-tba .person-name { color: var(--crob-muted); font-weight: 500; }
 
 /* Call for papers */
