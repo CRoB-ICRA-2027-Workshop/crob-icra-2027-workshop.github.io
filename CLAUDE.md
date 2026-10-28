@@ -6,7 +6,7 @@ Single-page Jekyll site for the ICRA 2027 workshop "Choosing Robot Bodies (CRoB)
 - Content data: `_data/schedule.yml`, `speakers.yml`, `organizers.yml`, `dates.yml`. Prefer editing YAML over HTML.
 - Logistics (date, room, contact email, submission link): `_config.yml`.
 - Section markup and prose: `_includes/*.html`, assembled in `index.html`. Shared person card: `_includes/person.html`.
-- Styling: `assets/css/style.css` (color tokens for light and dark mode at top). Bootstrap 5.3.3 from jsDelivr.
+- Styling: `assets/css/crob.css` (color tokens for light and dark mode at top). Bootstrap 5.3.3 from jsDelivr.
 - Photos: `assets/img/people/<lastname>.jpg`, 400x400 square JPEG, face centered. Empty `photo` field shows `placeholder.svg`. Speaker `name: "TBA"` renders an open slot.
 
 ## Content rules

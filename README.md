@@ -15,7 +15,7 @@ Most edits happen in YAML; no HTML needed.
 | Organizers | `_data/organizers.yml` |
 | Important dates | `_data/dates.yml` |
 | Section text | `_includes/*.html` |
-| Styling | `assets/css/style.css` |
+| Styling | `assets/css/crob.css` |
 
 Photos go in `assets/img/people/` (square, about 400 px) and are referenced by filename in the `photo` field.
 Leave `photo` empty to show the placeholder avatar, and set a speaker `name` to `TBA` for an open slot.
