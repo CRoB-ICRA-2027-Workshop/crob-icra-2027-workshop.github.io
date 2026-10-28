@@ -5,37 +5,42 @@
 - block: generalist
   name: "Boyuan Chen"
   affiliation: "Duke University"
-  url: ""
-  photo: ""  # chen.jpg
+  url: "https://generalroboticslab.com/"
+  photo: "chen.jpg"
   status: "Confirmed"
   attendance: "TBA"
 - block: generalist
   name: "Oier Mees"
   affiliation: "ETH Zurich"
-  url: ""
-  photo: ""  # mees.jpg
+  url: "https://www.oiermees.com/"
+  photo: "mees.jpg"
   status: "Confirmed"
   attendance: "TBA"
 - block: generalist
-  name: "TBA"
+  name: "Sha Yi"
+  affiliation: "Physical Intelligence"
+  url: "https://yswhynot.github.io/"
+  photo: "yi.jpg"
+  status: "Invited"
+  attendance: "TBA"
 - block: specialist
   name: "Rika Antonova"
   affiliation: "University of Cambridge"
-  url: ""
-  photo: ""  # antonova.jpg
+  url: "https://contactrika.github.io/"
+  photo: "antonova.jpg"
   status: "Confirmed"
   attendance: "In person"
 - block: specialist
   name: "Matei Ciocarlie"
   affiliation: "Columbia University"
-  url: ""
+  url: "https://roam.me.columbia.edu/people/matei-ciocarlie"
   photo: ""  # ciocarlie.jpg
   status: "Confirmed"
   attendance: "TBA"
 - block: specialist
   name: "Cosimo Della Santina"
   affiliation: "TU Delft"
-  url: ""
-  photo: ""  # dellasantina.jpg
+  url: "https://www.tudelft.nl/staff/c.dellasantina/"
+  photo: "dellasantina.jpg"
   status: "Confirmed"
   attendance: "In person"
