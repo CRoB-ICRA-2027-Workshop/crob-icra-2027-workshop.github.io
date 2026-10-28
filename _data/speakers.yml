@@ -15,7 +15,7 @@
   url: "https://www.oiermees.com/"
   photo: "mees.jpg"
   status: "Confirmed"
-  attendance: "TBA"
+  attendance: "In person"
 - block: generalist
   name: "Sha Yi"
   affiliation: "Physical Intelligence"
@@ -36,7 +36,7 @@
   url: "https://roam.me.columbia.edu/people/matei-ciocarlie"
   photo: "ciocarlie.jpg"
   status: "Confirmed"
-  attendance: "TBA"
+  attendance: "In person"
 - block: specialist
   name: "Cosimo Della Santina"
   affiliation: "TU Delft"
