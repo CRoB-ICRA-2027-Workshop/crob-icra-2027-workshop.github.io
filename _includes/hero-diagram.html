@@ -1,0 +1,110 @@
+<svg class="hero-diagram" viewBox="0 0 960 310" role="img" aria-labelledby="crob-diagram-title crob-diagram-desc">
+  <title id="crob-diagram-title">One policy, many robot bodies</title>
+  <desc id="crob-diagram-desc">A single policy connects to a robot arm, a quadruped, a humanoid, a drone, a mobile manipulator, a snake robot, and an empty slot for a new body still to be chosen.</desc>
+  <defs>
+    <marker id="crob-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#fff" fill-opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <!-- Connectors from the policy to each body -->
+  <g class="links" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="4 6" marker-end="url(#crob-arrow)">
+    <path d="M480 74 C480 120, 90 105, 90 154"/>
+    <path d="M480 74 C480 120, 220 110, 220 154"/>
+    <path d="M480 74 C480 120, 350 115, 350 154"/>
+    <path d="M480 74 L480 154"/>
+    <path d="M480 74 C480 120, 610 115, 610 154"/>
+    <path d="M480 74 C480 120, 740 110, 740 154"/>
+    <path d="M480 74 C480 120, 870 105, 870 154"/>
+  </g>
+
+  <!-- Policy node -->
+  <g>
+    <rect x="380" y="10" width="200" height="64" rx="14" fill="#fff" fill-opacity="0.12" stroke="#fff" stroke-width="2"/>
+    <g stroke="#fff" stroke-opacity="0.6" stroke-width="1.2" transform="translate(-20 0)">
+      <path d="M422 28 L446 24 M422 28 L446 42 M422 28 L446 60 M422 42 L446 24 M422 42 L446 42 M422 42 L446 60 M422 56 L446 24 M422 56 L446 42 M422 56 L446 60 M446 24 L468 42 M446 42 L468 42 M446 60 L468 42"/>
+    </g>
+    <g fill="#fff" transform="translate(-20 0)">
+      <circle cx="422" cy="28" r="3.5"/><circle cx="422" cy="42" r="3.5"/><circle cx="422" cy="56" r="3.5"/>
+      <circle cx="446" cy="24" r="3.5"/><circle cx="446" cy="42" r="3.5"/><circle cx="446" cy="60" r="3.5"/>
+      <circle cx="468" cy="42" r="4"/>
+    </g>
+    <text x="466" y="49" fill="#fff" font-size="21" font-weight="600">Policy <tspan font-style="italic" font-family="Georgia, serif">&#960;</tspan></text>
+  </g>
+
+  <!-- Tiles behind each body -->
+  <g stroke="#fff" stroke-opacity="0.35" stroke-width="1.5">
+    <rect class="tile" x="36" y="161" width="108" height="108" rx="22"/>
+    <rect class="tile" x="166" y="161" width="108" height="108" rx="22"/>
+    <rect class="tile" x="296" y="161" width="108" height="108" rx="22"/>
+    <rect class="tile" x="556" y="161" width="108" height="108" rx="22"/>
+    <rect class="tile" x="686" y="161" width="108" height="108" rx="22"/>
+    <rect class="tile" x="816" y="161" width="108" height="108" rx="22"/>
+  </g>
+
+  <!-- Bodies -->
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Arm -->
+    <g transform="translate(90 215) scale(1.15)">
+      <rect x="-22" y="30" width="44" height="10" rx="2"/>
+      <path d="M0 25 L-8 -5 L25 -25 L32 -12"/>
+      <path d="M25 -5 L32 -12 L39 -5 M25 -5 L25 2 M39 -5 L39 2"/>
+      <circle cx="0" cy="25" r="5" class="knock"/>
+      <circle cx="-8" cy="-5" r="5" class="knock"/>
+      <circle cx="25" cy="-25" r="4" class="knock"/>
+    </g>
+    <!-- Quadruped -->
+    <g transform="translate(220 215) scale(1.15)">
+      <path d="M-26 4 L-34 22 L-28 40 M-17 4 L-25 22 L-19 40 M12 4 L20 22 L14 40 M21 4 L29 22 L23 40"/>
+      <rect x="-32" y="-10" width="58" height="16" rx="6" class="knock"/>
+      <rect x="26" y="-20" width="15" height="12" rx="3" class="knock"/>
+    </g>
+    <!-- Humanoid -->
+    <g transform="translate(350 215) scale(1.15)">
+      <circle cx="0" cy="-30" r="8"/>
+      <rect x="-11" y="-19" width="22" height="28" rx="4"/>
+      <path d="M-11 -15 L-20 2 L-18 14 M11 -15 L20 2 L18 14"/>
+      <path d="M-6 9 L-8 24 L-8 40 M6 9 L8 24 L8 40 M-13 40 L-6 40 M6 40 L13 40"/>
+    </g>
+    <!-- New body? -->
+    <g transform="translate(480 215)" class="new-body">
+      <rect x="-54" y="-54" width="108" height="108" rx="22" stroke="#9fe3e8" stroke-width="2.5" stroke-dasharray="7 7" fill="#9fe3e8" fill-opacity="0.08"/>
+      <text x="0" y="17" text-anchor="middle" fill="#9fe3e8" stroke="none" font-size="52" font-weight="700">?</text>
+    </g>
+    <!-- Drone -->
+    <g transform="translate(610 215) scale(1.05)">
+      <path d="M-12 2 L-30 -8 M12 2 L30 -8 M-30 -8 L-30 -12 M30 -8 L30 -12"/>
+      <ellipse cx="-30" cy="-13" rx="15" ry="3.5"/>
+      <ellipse cx="30" cy="-13" rx="15" ry="3.5"/>
+      <rect x="-12" y="-4" width="24" height="14" rx="4" class="knock"/>
+      <path d="M-7 10 L-11 22 M7 10 L11 22 M-17 22 L-5 22 M5 22 L17 22"/>
+    </g>
+    <!-- Mobile manipulator -->
+    <g transform="translate(740 215) scale(1.15)">
+      <path d="M-10 10 L-10 -14 L14 -26 L20 -16 M14 -10 L20 -16 L28 -12"/>
+      <rect x="-30" y="10" width="60" height="18" rx="4" class="knock"/>
+      <circle cx="-18" cy="32" r="7" class="knock"/>
+      <circle cx="18" cy="32" r="7" class="knock"/>
+      <circle cx="-10" cy="-14" r="4" class="knock"/>
+      <circle cx="14" cy="-26" r="4" class="knock"/>
+    </g>
+    <!-- Snake -->
+    <g transform="translate(870 215) scale(1.15)">
+      <path d="M-36 30 C-26 8 -14 8 -6 24 S12 42 20 24 S30 6 32 6" stroke-width="7"/>
+      <path d="M-36 30 C-26 8 -14 8 -6 24 S12 42 20 24 S30 6 32 6" class="knock-stroke" stroke-width="2" stroke-dasharray="2 7"/>
+      <circle cx="35" cy="5" r="7" fill="#fff" stroke="none"/>
+      <circle cx="37" cy="3" r="1.8" class="knock" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- Labels -->
+  <g class="diagram-labels" fill="#fff" fill-opacity="0.92" font-size="17" font-weight="500" text-anchor="middle">
+    <text x="90" y="296">Arm</text>
+    <text x="220" y="296">Quadruped</text>
+    <text x="350" y="296">Humanoid</text>
+    <text x="480" y="296" fill="#9fe3e8" fill-opacity="1">New body?</text>
+    <text x="610" y="296">Drone</text>
+    <text x="740" y="296">Mobile base</text>
+    <text x="870" y="296">Snake</text>
+  </g>
+</svg>

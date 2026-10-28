@@ -69,6 +69,16 @@ a:hover { color: var(--crob-accent-hover); }
 .hero-kicker { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.85rem; opacity: 0.85; }
 .hero-title { font-weight: 700; font-size: clamp(2.2rem, 6vw, 3.6rem); margin-bottom: 0.25rem; }
 .hero-subtitle { font-size: clamp(1.1rem, 2.6vw, 1.5rem); opacity: 0.92; }
+.hero-diagram {
+  --crob-tile: color-mix(in srgb, #fff 12%, color-mix(in srgb, var(--crob-hero-from) 40%, var(--crob-hero-to)));
+  display: block; width: 100%; max-width: 900px; height: auto; margin: 2rem auto 0.5rem;
+}
+.hero-diagram .tile, .hero-diagram .knock { fill: var(--crob-tile); }
+.hero-diagram .knock-stroke { stroke: var(--crob-tile); }
+.hero-diagram .links path { animation: crob-flow 1.6s linear infinite; }
+@keyframes crob-flow { to { stroke-dashoffset: -20; } }
+@media (prefers-reduced-motion: reduce) { .hero-diagram .links path { animation: none; } }
+@media (max-width: 575.98px) { .hero-diagram .diagram-labels { display: none; } }
 .hero-meta { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; opacity: 0.85; margin: 1.25rem 0 1.75rem; }
 
 /* Sections */
