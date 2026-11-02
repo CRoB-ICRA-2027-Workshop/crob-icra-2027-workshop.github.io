@@ -1,12 +1,12 @@
-# Important dates (Anywhere on Earth). Offsets follow the proposal timeline;
-# replace with calendar dates once ICRA 2027 dates are fixed.
+# Important dates (Anywhere on Earth). Tentative: they follow the proposal timeline,
+# which assumes ICRA assigns May 24. Shift them if the workshop lands on May 28.
 - label: "Submissions open"
-  date: "TBA"
+  date: "February 14, 2027 (tentative)"
 - label: "Submission deadline"
-  date: "TBA (about 8 weeks before the workshop)"
+  date: "March 29, 2027 (tentative)"
 - label: "Author notification"
-  date: "TBA (about 6 weeks before the workshop)"
+  date: "April 12, 2027 (tentative)"
 - label: "Camera-ready abstracts and pitch slots"
-  date: "TBA (about 4 weeks before the workshop)"
+  date: "April 26, 2027 (tentative)"
 - label: "Workshop day at ICRA 2027"
-  date: "TBA"
+  date: "May 24 or 28, 2027 (assigned by ICRA)"

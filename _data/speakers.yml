@@ -1,6 +1,7 @@
 # Invited speakers. "block" is generalist or specialist.
 # Set name to "TBA" for open slots. Photos go in assets/img/people/<lastname>.jpg (square, ~400px);
 # leave photo empty until the file is added. "status" is Confirmed or Invited.
+# "topics" is an optional one-line research summary shown under the status.
 # "attendance" is In person, Remote, or TBA (only set In person / Remote once the speaker has said so).
 - block: generalist
   name: "Boyuan Chen"
@@ -9,6 +10,7 @@
   photo: "chen.jpg"
   status: "Confirmed"
   attendance: "TBA"
+  topics: "Text2Robot, cross-embodiment learning"
 - block: generalist
   name: "Oier Mees"
   affiliation: "ETH Zurich"
@@ -16,6 +18,7 @@
   photo: "mees.jpg"
   status: "Confirmed"
   attendance: "In person"
+  topics: "Octo, video-action models"
 - block: generalist
   name: "Sha Yi"
   affiliation: "Physical Intelligence"
@@ -30,6 +33,7 @@
   photo: "antonova.jpg"
   status: "Confirmed"
   attendance: "In person"
+  topics: "Real-to-sim, co-evolving hardware and policy"
 - block: specialist
   name: "Matei Ciocarlie"
   affiliation: "Columbia University"
@@ -37,6 +41,7 @@
   photo: "ciocarlie.jpg"
   status: "Confirmed"
   attendance: "In person"
+  topics: "Hand design, hardware as policy"
 - block: specialist
   name: "Cosimo Della Santina"
   affiliation: "TU Delft"
@@ -44,3 +49,4 @@
   photo: "dellasantina.jpg"
   status: "Confirmed"
   attendance: "In person"
+  topics: "Soft and compliant bodies"
